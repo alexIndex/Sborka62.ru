@@ -1,0 +1,519 @@
+html,body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0; 
+	border: 0; 
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+html {height: 100%;}
+
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+
+.cleaerfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{ clear: both;}
+
+.left {float: left;}
+.right {float: right;}
+.text-right {text-align: right;}
+.text-left {text-align: left;}
+
+
+html {height: 100%;}
+body {
+	height: 100%;
+	margin: 0 auto;
+	width: 100%; 
+	max-width: 1900px;
+}
+
+ol, ul {list-style: none;}
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+}
+
+@font-face {
+	font-family: "Proba Pro Medium";
+	src: url("../fonts/Proba_PRO/Proba Pro Medium.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@font-face {
+	font-family: "Proba Pro Regular";
+	src: url("../fonts/Proba_PRO/ProbaPro-Regular.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Proba Pro Bold";
+	src: url("../fonts/Proba_PRO/Proba Pro Bold.otf");
+	
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+
+
+
+
+
+#section1_enter {
+	height: 705px;
+	max-height: 705px;
+	background: url(../images/main_bg.jpg) ;
+	background-size: 90%;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+
+#container1 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 86%;
+}
+
+.label {
+	background: #fff;
+	position: relative;
+	height: 90px;
+}
+
+.label_cont {
+	max-width: 1100px;
+	height: 60px;
+	margin: 0 auto;
+	position: relative;
+
+}
+
+
+.logo_block {
+	display: inline-block;
+	height: 80px;
+	width: 37%;
+	padding-top: 12px;
+	padding-bottom: 0px;
+}
+
+
+
+.phone_block {
+	display: inline-block;
+	height: 60px;
+	width: 62%;	
+	position: relative;
+
+
+}
+
+a img {
+	height: 102%;
+}
+
+.logo_block a {
+	position: relative;
+	top: 0px;
+
+}
+
+
+.phone_block h2 {
+	font: 25px "Proba Pro Medium", Arial, sans-serif;
+	color: #000;
+	display: inline-block;
+	margin-top: 9px;
+
+
+}
+
+.phone_transparent_block {
+	position: absolute;
+	right: 0px;
+}
+
+.phone_transparent_block img {
+	height: 57%;
+	display: inline-block;
+	position: relative;
+
+}
+
+.phone_icon  {
+	height: 75%;
+	position: absolute;
+	width: 40px;
+	background: url(../images/telephone.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	right: 196px;
+	top: 5px;
+
+}
+.phone_transparent_block {
+	height: 50px;
+}
+
+.nav_container {
+	height: 40px;
+	width: 77%;
+	margin: auto;
+}
+
+
+.nav_container li a {
+	font: 20px "Proba Pro Medium", Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.nav_container li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.nav_container li:last-child {
+	margin-right: 0px;
+}
+
+.nav_container ul {
+	margin-top: 7px;
+}
+
+.cont1_h1_1{
+	font-family: "Proba Pro Regular";
+	color: #0ca7eb;
+	font-size: 40px;
+	font-weight: 200;
+	text-align: center;
+	margin-top: 100px;
+
+}
+.cont1_h1_2 {
+	font-family: "Proba Pro Medium";
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	
+}
+
+.form1 {
+	border-width: 8px;
+	border-color:#7a6855;
+	border-style: solid;
+	width: 75%;
+	height: 135px;
+	margin: auto;
+	margin-top: 220px;
+}
+
+.form1 p {
+	font: 22px/22px "Proba Pro Medium";
+	color: #ffffff;
+	font-weight: 500;
+	text-align: center;
+	margin-top: 5px;
+}
+
+
+.textbox {
+	height: 44px;
+	width: 30%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #000;
+	border: #000 2px solid;
+	color: #7a6855;
+	text-align: left;
+	right: 22px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.textbox2 {
+	height: 44px;
+	width: 30%;
+	box-sizing: border-box;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-size: 18px;
+	padding: 10px;
+	background-color: #000;
+	border: #000 2px solid;
+	color: #7a6855;
+	text-align: left;
+	right: 4px;
+	margin-top: 13px;
+	position: relative;
+	display: inline-block;
+}
+
+
+.button_form1 {
+	height: 41px;
+	width: 30%;
+	border: #1477a3 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(0,0,0,.0);
+	color: #FFF;
+	font-family: 'Proba Pro Medium', sans-serif;
+	font-weight: 200;
+	font-size: 20px;
+	transition: background .4s;
+	cursor: pointer;
+	display: inline-block;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	-moz-box-shadow:    0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	box-shadow:         0px 4px 0px 0px rgba(18, 83, 112, 0.75);
+	position: relative;
+	left: 14px;
+
+	font-family: "Proba Pro Medium";
+	color: #0da7eb;
+	font-size: 22px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: center;
+}
+
+
+
+#container2 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 86%;
+}
+
+.bg_section2 {
+	height: 300px;
+	background: url(../images/bg_section2.jpg);
+}
+
+
+.three_block_sec2 {
+	display: inline-block;
+	width: 33%;
+	height: 160px;
+
+}
+
+.three_block_sec2 h1 {
+	font-family: "Proba Pro Medium";
+	color: #e6dcc7;
+	font-size: 64.67px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+	width: 40px;
+	position: absolute;
+	z-index: 1;
+	margin-left: 61px;
+	margin-top: 13px;
+}
+
+
+.three_block_sec2 p {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 20px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: left;
+	position: absolute;
+	z-index: 2;
+	margin-top: 51px;
+	margin-left: 73px;
+}
+
+
+.three_block2_sec2 {
+	display: inline-block;
+	width: 33%;
+	height: 300px;
+
+}
+
+
+.typoy_box {
+	border-width: 5px;
+	border-color: #e6dcc7;
+	border-style: solid;
+	height: 150px;
+	width: 185px;
+	position: relative;
+	margin: auto;
+	top: 75px;
+
+}
+
+.icon_sec2 {
+	position: absolute;
+	max-height: 50px;
+	right: 49px;
+	width: 72px;
+	top: -29px;
+	background: #7a6855;
+	border-radius: 56%;
+	border: 1px solid #e6dcc7 ;
+}
+
+
+.three_block2_sec2 p {
+	font-family: "Proba Pro Medium";
+	color: #e6dcc7;
+	font-size: 20px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: center;
+	display: block;
+	width: 147px;
+	position: absolute;
+	right: -40px;
+	top: 55px;
+
+}
+
+
+#section3 {
+	background:  #d2d5db;;
+	height: 866px;
+}
+
+
+
+#container3 {
+	max-width: 1200px;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	
+}
+
+#container3 h2 {
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 31px;
+	text-align: center;
+	font-weight: bold;
+	position: relative;
+	top: 20px;
+	margin-bottom: 40px;
+}
+
+
+.row_sec3 {
+	height: 195px;
+}
+
+.block_quatro {
+	width: 24%;
+	height: 100%;
+	display: inline-block;
+	padding-top: 24px;
+	padding-left: 18px;
+
+}
+
+
+.content_block {
+
+	width: 245px;
+	height: 140px;
+	position: relative;
+}
+
+
+.border_el_sec3 {
+	border-width: 5px;
+	border-color: #7a6855;
+	border-style: solid;
+	width: 163px;
+	height: 125px;
+	position: relative;
+	z-index: 1;
+	display: block;
+
+}
+
+.img_sec3 {
+	position: absolute;
+	display: block;
+	z-index: 2;
+	width: 170px;
+	height: 145px;
+	top: 16px;
+	left: 23px;
+}
+
+
+
+.block_quatro p {
+	font-family: "Proba Pro Medium";
+	color:
+	#ffffff;
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 500;
+	text-align: left;
+	background-color: #7a6855;
+	position: absolute;
+	z-index: 3;
+	top: 34px;
+	left: -24px;
+	padding: 0px 8px;
+}
+
+
+
+
+
+

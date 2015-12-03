@@ -8,11 +8,14 @@
 	<link rel="stylesheet" href="сss/jquery.bxslider.css">
 	<link rel="stylesheet" type="text/css" href="css/form.css">
 	<link rel="stylesheet" type="text/css" href="css/media.css">
+	<link rel="icon" href="flavicon.png" type="image/x-icon" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
 	
 
 	
-	<title>Sborka.62</title>     
+	<title>Sborka.62</title>   
+
 </head> 
 
 <body>
@@ -39,16 +42,34 @@
 		</div>
 
 
-		<div class="nav_container wow fadeInDown" data-wow-delay="1s"  data-wow-duration="3s">
+		<div class="nav_container_mobile wow fadeInDown" data-wow-delay="1s"  data-wow-duration="3s">
+			<a class="menu-trigger">Меню</a>
 			<ul> 
-				<li><a href="#">Главная</a></li>
-				<li><a href="#">Услуги</a></li>
-				<li><a href="#">Цены</a></li>
+				<li><a href="#section1_enter"  class="ancLinks">Главная</a></li>
+				<li><a href="#section3_cor"  class="ancLinks">Услуги</a></li>
+				<li><a href="#section_type_services_cor"  class="ancLinks">Цены</a></li>
 				<li><a href="#">Калькулятор</a></li>
-				<li><a href="#">Галлерея</a></li>
+				<li><a href="#section_gallery_cor"  class="ancLinks">Галлерея</a></li>
 				<li><a href="#">Отзывы</a></li>
-				<li><a href="#">География работ</a></li>
-				<li><a href="#">Контакты</a></li>
+				<li><a href="#section_map_cor"  class="ancLinks">География работ</a></li>
+				<li><a href="#section_last"  class="ancLinks">Контакты</a></li>
+
+			</ul>
+			
+		</div>
+
+
+		<div class="nav_container wow fadeInDown" data-wow-delay="1s"  data-wow-duration="3s">
+			<a class="menu-trigger">Меню</a>
+			<ul> 
+				<li><a href="#section1_enter"  class="ancLinks">Главная</a></li>
+				<li><a href="#section3_cor"  class="ancLinks">Услуги</a></li>
+				<li><a href="#section_type_services_cor"  class="ancLinks">Цены</a></li>
+				<li><a href="#">Калькулятор</a></li>
+				<li><a href="#section_gallery_cor"  class="ancLinks">Галлерея</a></li>
+				<li><a href="#">Отзывы</a></li>
+				<li><a href="#section_map_cor"  class="ancLinks">География работ</a></li>
+				<li><a href="#section_last"  class="ancLinks">Контакты</a></li>
 
 			</ul>
 			
@@ -151,7 +172,10 @@
 									<div class="icon_sec2"><img src="images/icon3.png"> <p>Поможем 
 										обустроить офис</p> </div>
 
+
 									</div></div>
+									
+
 								</div>
 
 
@@ -163,10 +187,11 @@
 
 
 
-
-
 					</div>
 
+
+
+					<div style="position:relative; top: -60px;" id="section3_cor"></div> <!-- КОрректирующая якорная ссылка -->
 
 					<div id="section3">
 						<div id="container3">
@@ -357,29 +382,41 @@
 
 
 
-
+								<div style="position:relative; top: -60px;" id="section_type_services_cor"></div> <!-- КОрректирующая якорная ссылка -->
 								<div id="section_type_services">
 									<div id="container_type_services">
 										<h2>Цены</h2>
 										<div  id="slider_mainwrap">
 											<ul class="bxslider">
 												<li>
-													<div class="slider_block_1"></div>
+													<div class="slider_block_1">
+														<div class="sli_nameblock1"></div>
+													</div>
 												</li>
 												<li>
-													<div class="slider_block_2"></div>
+													<div class="slider_block_2">
+														<div class="sli_nameblock2"></div>
+													</div>
 												</li>
 												<li> 
-													<div class="slider_block_3"></div>
+													<div class="slider_block_3">
+														<div class="sli_nameblock3"></div>
+													</div>
 												</li>
 												<li>
-													<div class="slider_block_4"></div>
+													<div class="slider_block_4">
+														<div class="sli_nameblock4"></div>
+													</div>
 												</li>
 												<li>
-													<div class="slider_block"></div>
+													<div class="slider_block">
+														<div class="sli_nameblock5"></div>
+													</div>
 												</li>
 												<li>
-													<div class="slider_block"></div>
+													<div class="slider_block">
+														<div class="sli_nameblock6"></div>
+													</div>
 												</li>
 											</ul>
 										</div>										
@@ -813,6 +850,114 @@
 
 
 
+																				<div id="section_calc">
+
+																					<div id="container_calc">
+
+
+
+																						<h2>Калькулятор</h2>
+
+																						<form>
+																							<div class="calc_block1">
+																								<h3>Добавить позицию</h3>
+																								<div class="calc_sub_block1">
+																									Тип мебели
+																								</div>
+																								<select class="calc_select">
+																									<option>Корпусная мебель</option>
+																									<option>Школьная</option>
+																									<option>Офисная</option>
+																								</select>
+																								<div class="calc_sub_block1">
+																									Наименование
+																								</div>
+																								<select class="calc_select">
+																									<option>Шкаф</option>
+																									<option>Прихожая</option>
+																									<option>Стол</option>
+																								</select>
+
+																								<div class="calc_sub_block1">
+																									Стоимость мебели 
+																								</div>
+																								<input class="input_calc1" type="text">
+																								
+
+																								<div class="calc_sub_block1">
+																									Длина
+																								</div>
+																								<input class="input_calc1" type="text">
+
+																								<h3 style="margin-top: 30px;" >Дополнительное оборудование</h3>
+
+
+
+
+
+																								<div class="check_field">
+
+																									<input  type="checkbox"><div class="calc_sub_block2">Посудомоечная машина</div>
+																									<input  type="checkbox"><div class="calc_sub_block3">Варочная панель</div>
+
+																									<input  type="checkbox"><div class="calc_sub_block2">Стиральная машина</div>
+																									<input  type="checkbox"><div class="calc_sub_block3">Варочная панель</div>
+
+																									<input  type="checkbox"><div class="calc_sub_block2">Смеситель</div>
+																									<input  type="checkbox"><div class="calc_sub_block3">Варочная панель</div>
+
+																									<input  type="checkbox"><div class="calc_sub_block2">Технические отверстия</div>
+																									<input  type="checkbox"><div class="calc_sub_block3">Варочная панель</div>
+
+
+																								</div>
+
+
+
+																								<div style="width: 17%;" class="calc_sub_block1">
+																									Стоимость 
+																								</div>
+																								<input style="width: 25%;" class="input_calc1" type="text">
+																								<button class="button1_calc">Добавить</button>
+
+
+
+
+
+
+																								
+
+
+
+
+
+
+
+																							</div>
+																							<div class="calc_block2">
+																								
+
+																							</div>
+																						</form>
+
+
+
+																					</div>
+
+
+
+																				</div>
+
+
+
+
+
+
+
+
+
+
+																				<div style="position:relative; top: -60px;" id="section_gallery_cor"></div> <!-- КОрректирующая якорная ссылка -->
 																				<div id="section_gallery">
 																					<div id="container_gallery">
 																						<h2>Некоторые из наших работ</h2>
@@ -875,6 +1020,125 @@
 
 
 
+
+
+																					<div id="section_review">
+
+
+																						<div id="container_section_review">
+
+																							<h2>Отзывы о нашей работе</h2>
+
+																							<div class="review_block">
+																								<div class="review_img_block">
+																									<div class="inner_img_block">
+																										<img src="images/review.jpg">
+																									</div>
+																									<div class="border_box"></div>
+																									<div class="face">
+																										<img src="images/face.jpg" >
+																									</div>
+																								</div>
+																								<div class="review_text">
+																									<h3>Константин Константиновский</h3>
+																									<p>С другой стороны дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание модели развития. Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям. Таким образом начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки форм развития. Таким образом дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки форм развития.</p>
+
+
+																									<button class="button_review" data-wow-delay="3s" data-wow-duration="2s"  data-wow-iteration="3">Посмотреть</button>
+
+																								</div>
+
+																								
+
+																							</div>
+
+
+
+
+
+
+																							<div class="review_block">
+																								<div class="review_img_block">
+																									<div class="inner_img_block">
+																										<img src="images/review.jpg">
+																									</div>
+																									<div class="border_box"></div>
+																									<div class="face">
+																										<img src="images/face.jpg" >
+																									</div>
+																								</div>
+																								<div class="review_text">
+																									<h3>Константин Константиновский</h3>
+																									<p>С другой стороны дальнейшее развитие различных форм деятельности в значительной степени обуславливает создание модели развития. Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям. Таким образом начало повседневной работы по формированию позиции представляет собой интересный эксперимент проверки форм развития. Таким образом дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки форм развития.</p>
+
+
+																									<button class="button_review" data-wow-delay="3s" data-wow-duration="2s"  data-wow-iteration="3">Посмотреть</button>
+
+																								</div>
+
+																								
+
+																							</div>
+
+
+
+																							<div class="border_box2">
+																								<div class="face2">
+																									<img src="images/face.jpg" >
+																								</div>
+																							</div>
+
+																							<div class="border_box2">
+																								<div class="face2">
+																									<img src="images/face.jpg" >
+																								</div>
+																							</div>
+
+																							<div class="border_box2">
+																								<div class="face2">
+																									<img src="images/face.jpg" >
+																								</div>
+																							</div>
+
+																							<div class="border_box2">
+																								<div class="face2">
+																									<img src="images/face.jpg" >
+																								</div>
+																							</div>
+
+
+																							<div class="border_box2">
+																								<div class="face2">
+																									<img src="images/face.jpg" >
+																								</div>
+																							</div>
+
+
+																							<button class="button2_review" data-wow-delay="3s" data-wow-duration="2s"  data-wow-iteration="3">Посмотреть</button>
+
+
+
+
+
+
+
+
+
+
+
+																						</div>																						
+
+
+																					</div>
+
+
+
+
+
+
+
+
+																					<div style="position:relative; top: -60px;" id="section_map_cor"></div> <!-- КОрректирующая якорная ссылка -->
 																					<div id="section_map">
 																						<div style="height: 520px; width: 100%; position: relative;
 																						z-index: 1" class="map">
@@ -911,6 +1175,9 @@
 
 
 																				</div>
+
+
+
 
 
 																				<div id="section_last">
@@ -991,20 +1258,83 @@
 																				<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 																				<script src="js/jquery-2.1.3.min.js" ></script>
 
-																				
+
+
+																				<script type="text/javascript">
+																					$(document).ready(function() {
+																						$("a.ancLinks").click(function () {
+																							var elementClick = $(this).attr("href");
+																							var destination = $(elementClick).offset().top;
+																							$('html,body').animate( { scrollTop: destination }, 1100 );
+																							return false;
+																						});
+																					});
+																				</script>
 
 
 
-																				<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
-																				<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
+
+
+																				<script>
+																					$('.menu-trigger').click(function(){
+																						$('.nav_container_mobile ul').slideToggle(500);
+																					});
+
+																					$(window).resize(function(){
+																						if ($(window).width() > 960 ) {
+																							$('.nav_container_mobile ul').removeAttr('style');
+																						}
+
+																					});
+
+																					jQuery('.nav_container_mobile ul li, .nav_container_mobile ul li a').click(function(){
+																						jQuery('.nav_container_mobile ul').css('display','none');
 
 
 
 
-																				<script> 
-																					jQuery(document).ready(function(){
+																					});
+																				</script>
 
-																						var navPos, winPos, navHeight;
+
+
+
+
+
+
+
+
+<!-- 
+																				<script>
+																					$(document).ready(function(){
+																						$('a[href^="#"]').click(function () { 
+																							elementClick = $(this).attr("href");
+																							destination = $(elementClick).offset().top();
+																							if($.browser.safari){
+																								$('body').animate( { scrollTop: destination }, 1000 );
+																							} else {
+																								$('html').animate( { scrollTop: destination }, 1000 );
+																							}
+																							return false;
+																						});
+																					});
+																				</script>
+																			-->
+
+
+
+
+
+																			<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
+																			<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
+
+
+
+
+																			<script> 
+																				jQuery(document).ready(function(){
+
+																					var navPos, winPos, navHeight;
 
 
 																						function refreshVar() {   //функция для постоянного рефрешинга страницы
@@ -1015,35 +1345,20 @@
 
 
 																						};
-
-																						
-
-																						
-
-
-
 																						refreshVar(); 
 																						jQuery(window).resize(refreshVar);
 
-																						 jQuery('<div class="clone-nav_container"></div>').insertBefore('.nav_container').height(navHeight).hide();// создаем клона и замещает его на меню, чтобы не было скачка из потока
-
-
-																						 
+																						 jQuery('<div class="clone-nav_container"></div>').insertBefore('.nav_container').height(navHeight).hide();// создаем клона и замещает его на меню, чтобы не было скачка из потока																						 
 
 
 																						 jQuery(window).scroll(function(){
 
-
 																						 	winPos = jQuery(window).scrollTop();
-
-
-
 																						 	if (winPos >= navPos) {
 																						 		jQuery('.nav_container').addClass('fixed shadow');
 																						 		jQuery('.clone-nav_container').show();
 
 																						 	}
-
 																						 	else {
 
 																						 		jQuery('.nav_container').removeClass('fixed shadow');
@@ -1053,19 +1368,58 @@
 
 																						 });
 
-
-
-
-
-
-
 																						});
 
 
 </script>
 
+<!-- СКРИПТ MOBILE    ФИКСИРОВАННОГО МЕНЮ -->
+
+<script> 
+	jQuery(document).ready(function(){
+
+		var navPos, winPos, navHeight;
+
+
+																						function refreshVar() {   //функция для постоянного рефрешинга страницы
+
+
+																							navPos = jQuery('.nav_container_mobile').offset().top;
+																							navHeight = jQuery('.nav_container_mobile').outerHeight(); // узнали полную высоту элемента включая отступы
+
+
+																						};
+																						refreshVar(); 
+																						jQuery(window).resize(refreshVar);
+
+																						 jQuery('<div class="clone-nav_container_mobile"></div>').insertBefore('.nav_container_mobile').height(navHeight).hide();// создаем клона и замещает его на меню, чтобы не было скачка из потока																						 
+
+
+																						 jQuery(window).scroll(function(){
+
+																						 	winPos = jQuery(window).scrollTop();
+																						 	if (winPos >= navPos) {
+																						 		jQuery('.nav_container_mobile').addClass('fixed shadow');
+																						 		jQuery('.clone-nav_container_mobile').show();
+
+																						 	}
+																						 	else {
+
+																						 		jQuery('.nav_container_mobile').removeClass('fixed shadow');
+																						 		jQuery('.clone-nav_container_mobile').hide();
+
+																						 	}
+
+																						 });
+
+																						});
+
+
+</script>
 <!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
-<!-- СКРИПТ ФИКСИРОВАННОГО МЕНЮ -->
+
+
+
 
 
 

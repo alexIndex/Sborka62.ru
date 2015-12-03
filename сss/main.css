@@ -612,14 +612,15 @@ a img {
 	position: absolute;
 	display: block;
 	z-index: 2;
-	width: 170px;
+	width: 199px;
 	height: 145px;
 	top: 16px;
 	left: 23px;
 	-moz-transition-property: all;
-	-moz-transition: 1s ease-in;
+	-moz-transition: .3s ease-in;
 	-webkit-transition-property: all;
-	-webkit-transition: 1s ease-in;
+	-webkit-transition: .3s ease-in;
+	cursor: pointer;
 }
 
 .img_sec3 img {
@@ -628,13 +629,16 @@ a img {
 }
 
 .img_sec3:hover {
-	width: 226px;
-	height: 179px;
-	top: -20px;
+	
+	top: 8px;
 	-moz-transition-property: all;
 	-moz-transition: .2s ease-in;
 	-webkit-transition-property: all;
 	-webkit-transition: .2s ease-in;
+
+	-webkit-box-shadow: 3px 3px 1px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    3px 3px 1px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         3px 3px 1px 0px rgba(50, 50, 50, 0.75);
 
 }
 
@@ -1546,6 +1550,7 @@ a {
 	width: 240px;
 	overflow: hidden;
 	height: 350px;
+	cursor: pointer;
 
 }
 
@@ -1556,6 +1561,7 @@ a {
 	width: 238px;
 	overflow: hidden;
 	height: 350px;
+	cursor: pointer;
 
 }
 
@@ -1577,6 +1583,7 @@ a {
 	width: 238px;
 	overflow: hidden;
 	height: 350px;
+	cursor: pointer;
 
 }
 
@@ -1599,6 +1606,7 @@ a {
 	width: 238px;
 	overflow: hidden;
 	height: 350px;
+	cursor: pointer;
 
 }
 
@@ -1620,6 +1628,7 @@ a {
 	width: 238px;
 	overflow: hidden;
 	height: 350px;
+	cursor: pointer;
 
 }
 
@@ -1641,6 +1650,7 @@ a {
 	width: 238px;
 	overflow: hidden;
 	height: 350px;
+	cursor: pointer;
 
 }
 
@@ -2072,6 +2082,22 @@ a {
 
 }
 
+
+#container_calc p {
+
+	font-family: "Proba Pro Medium";
+	color: #7a6855;
+	font-size: 18px;
+	font-weight: 200;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #000;
+	margin-top: 15px;
+
+}
+
+
+
 .calc_block2 {
 	height: 535px;
 	display: inline-block;
@@ -2210,7 +2236,122 @@ a {
 }
 
 
+.button2_calc {
+	height: 31px;
+	width: 188px;
+	border: #7a6855 2px solid;
+	box-sizing: border-box;
+	padding: 0px;
+	background: rgba(255,255,255,0);
+	color: #FFF;
+	transition: background .4s;
+	cursor: pointer;
+	-webkit-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	-moz-box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	box-shadow: 0px 4px 0px 0px rgba(122,104,85, 0.75);
+	font-family: "Proba Pro Regular";
+	color: #7a6855;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin-right: -13px;
+	margin-left: 20px;
+	margin-top: 29px;
+	left: 32%;
+}
 
+
+.count  {
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	background:  #cbc4b8;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+.postion  {
+	display: inline-block;
+	width: 150px;
+	height: 40px;
+	background:  #e3ded5;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+.lenght  {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background:  #cbc4b8;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+.sum  {
+	display: inline-block;
+	width: 100px;
+	height: 40px;
+	background: #e3ded5;
+	margin-right: -4px;
+	padding-top: 7px;
+
+
+	font-family: "Proba Pro Medium";
+	color: #000000;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+
+
+.tovar_wrap {
+	margin-top: 3px;
+}
+
+.oplata {
+	background-color:  #7a6855;
+	width: 390px;
+	height: 37px;
+	position: relative;
+	left: 33%;
+	margin-top: 15px;
+	padding-top: 7px;
+
+
+
+	font-family: "Proba Pro Medium";
+	color: #fff;
+	font-size: 18px;
+	font-weight: 200;
+	line-height: 22px;
+}
+
+
+#section_gallery {
+	background:  #d2d5db;
+	height: 1500px;
+}
 
 
 
@@ -2881,11 +3022,12 @@ a {
 		font-size: 14px;
 		padding-bottom: 0px;
 		cursor: pointer;
-		font:  20px "Proba Pro Medium", Arial, sans-serif;
+		font: 20px "Proba Pro Medium", Arial, sans-serif;
 		color: #FFF;
 		text-decoration: none;
 		top: px;
 		left: 42%;
+		width: 58%;
 	}
 
 	.nav_container_mobile {
@@ -2937,6 +3079,53 @@ a {
 	}
 
 
+
+	#section_calc {
+		display: none;
+	}
+
+
+	.review_img_block {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		position: relative;
+	}
+
+
+	#section_review {
+		height: 2306px;
+		background: #e3e3e1;
+	}
+	.review_text {
+		display: inline-block;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+		text-align: left;
+		padding-left: 20px;
+		padding-right: 40px;
+	}
+
+
+
+	.review_block {
+		height: auto;
+		margin-top: 30px;
+	}
+
+
+
+	.review_img_block {
+		display: inline-block;
+		width: 314px;
+		height: 280px;
+		overflow: visible;
+		
+		position: relative;
+		left: -69px;
+	}
 
 
 
@@ -3059,6 +3248,15 @@ a {
 		height: 100%;
 		width: 289px;
 		overflow: visible;
+	}
+
+
+	.border_box2 {
+		display: inline-block;
+		position: relative;
+		width: 150px;
+		height: 139px;
+		overflow: hidden;
 	}
 
 
